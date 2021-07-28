@@ -2,4 +2,4 @@ var os = require('os');
 
 var networkInterfaces = os.networkInterfaces();
 
-console.log(networkInterfaces);
+console.log(JSON.stringify(networkInterfaces));
